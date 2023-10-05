@@ -3,13 +3,12 @@
 	"package": "com.javabedrockparity.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin",
-		"WorldRendererMixin"
+
 	],
 	"injectors": {
 		"defaultRequire": 1
 	},
 	"mixins": [
-		
+
 	]
 }

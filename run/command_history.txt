@@ -1,7 +1,0 @@
-/weather rain
-/locate biome minecraft:snowy_taiga
-/tp @s 1323 127 2949
-/locate biome minecraft:plains
-/tp @s 1517 86 3434
-/locate biome minecraft:jungle
-/tp @s -343 76 3882
