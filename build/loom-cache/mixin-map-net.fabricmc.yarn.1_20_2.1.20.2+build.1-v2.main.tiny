@@ -1,2 +1,0 @@
-v1	named	intermediary
-METHOD	com/javabedrockparity/mixin/BellBlockMixin	(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/math/Direction;)Z	ring	method_33600
