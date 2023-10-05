@@ -1,0 +1,9 @@
+v1	named	intermediary
+FIELD	com/javabedrockparity/mixin/client/WorldRendererMixin	Lnet/minecraft/client/MinecraftClient;	client	field_4088
+FIELD	com/javabedrockparity/mixin/client/WorldRendererMixin	I	ticks	field_4073
+FIELD	com/javabedrockparity/mixin/client/WorldRendererMixin	[F	NORMAL_LINE_DX	field_20794
+FIELD	com/javabedrockparity/mixin/client/WorldRendererMixin	[F	NORMAL_LINE_DZ	field_20795
+FIELD	com/javabedrockparity/mixin/client/WorldRendererMixin	Lnet/minecraft/util/Identifier;	RAIN	field_20797
+FIELD	com/javabedrockparity/mixin/client/WorldRendererMixin	Lnet/minecraft/util/Identifier;	SNOW	field_20798
+METHOD	com/javabedrockparity/mixin/client/WorldRendererMixin	(Lnet/minecraft/world/BlockRenderView;Lnet/minecraft/util/math/BlockPos;)I	getLightmapCoordinates	method_23794
+METHOD	com/javabedrockparity/mixin/client/WorldRendererMixin	(Lnet/minecraft/client/render/LightmapTextureManager;FDDD)V	renderWeather	method_22714
