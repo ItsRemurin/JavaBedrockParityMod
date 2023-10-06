@@ -5,7 +5,8 @@
   "mixins": [
     "BellBlockMixin",
     "CakeBlockMixin",
-    "CampfireBlockMixin"
+    "CampfireBlockMixin",
+    "CandleBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

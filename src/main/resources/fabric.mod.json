@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "javabedrockparity",
 	"version": "${version}",
 	"name": "Java -> Bedrock Parity",
 	"description": "Java if it was bedrock",
