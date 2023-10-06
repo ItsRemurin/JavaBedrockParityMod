@@ -27,7 +27,7 @@ public abstract class EntityTypeMixin<T extends Entity> implements ToggleableFea
         }
         EntityType<T> entityType = (EntityType<T>)((Object)this);
         EntityType<T> entityType2 = (EntityType<T>) JavaBedrockParity.PARENT_BABY_RELATION.get(entityType);
-        if(entityType2 != null && world.random.nextInt(100) >= 0.05f) {
+        if(entityType2 != null && world.random.nextInt(100) <= 5f) {
             entityType = entityType2;
         }
 

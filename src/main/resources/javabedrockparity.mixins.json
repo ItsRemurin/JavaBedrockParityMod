@@ -3,14 +3,19 @@
   "package": "com.javabedrockparity.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "PatrolSpawnerMixin",
-    "SpawnEggItemMixin",
     "EntityTypeMixin",
+    "PatrolSpawnerMixin",
+    "SalmonEntityMixin",
+    "SpawnEggItemMixin",
     "WanderingTraderEntityMixin",
     "WitchEntityMixin",
-    "WolfEntityMixin"
+    "WolfEntityMixin",
+    "SalmonEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
-	}
+  },
+  "client": [
+
+  ]
 }

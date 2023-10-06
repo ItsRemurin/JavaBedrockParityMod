@@ -23,4 +23,5 @@ public class BabyEntities {
             new Identifier(JavaBedrockParity.MODID, "glow_squid"),
             FabricEntityTypeBuilder.create(SpawnGroup.WATER_CREATURE, BabyGlowSquidEntity::new).dimensions(EntityDimensions.fixed(0.4F, 0.4F)).trackRangeChunks(8).build()
     );
+
 }
