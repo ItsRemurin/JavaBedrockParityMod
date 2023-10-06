@@ -2,9 +2,7 @@ package com.javabedrockparity.mixin;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CampfireBlock;
-import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
