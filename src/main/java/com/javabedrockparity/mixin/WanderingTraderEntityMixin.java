@@ -28,7 +28,9 @@ public abstract class WanderingTraderEntityMixin extends MerchantEntity {
                 new HoldRandomInHandsGoal<>((WanderingTraderEntity) (Object)this, getWorld(), getOffers(), SoundEvents.ENTITY_WANDERING_TRADER_YES, wanderingTrader -> {
                     PlayerEntity playerEntity = getWorld().getClosestPlayer(this, 6);
                     if(playerEntity != null) {
-                        return playerEntity.getStackInHand(playerEntity.getActiveHand()).isOf(Items.EMERALD);
+                        ItemStack itemStack = playerEntity.getStackInHand(playerEntity.getActiveHand());
+                        return itemStack.isOf(Items.EMERALD) ||
+                                itemStack.isOf(Items.EMERALD_BLOCK);
                     }
                     return false;
                 }));
